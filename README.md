@@ -135,13 +135,9 @@ npm start
 
 ### Run Unit Tests:
 ```bash
-npm run test
+npm test <file name>
 ```
-### Run Integration Tests :
-Run integration tests to verify the interaction between different tables and data consistency
-```bash
-npm run test:integration
-```
+
 ### Entity Relations diagram of your database design :
 ```bash
 https://lucid.app/lucidchart/c38eb101-077f-48f0-b371-161e7f02d87d/edit?viewport_loc=-727%2C-205%2C3072%2C1184%2C0_0&invitationId=inv_9e3948cd-1338-4dbd-ab82-3776a3026713
