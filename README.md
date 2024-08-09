@@ -1,7 +1,7 @@
 # [Group 10] - SENG8070 - Final Assignment
 
 # Project Overview:-
-Welcome to the Online Bookstore System project! This project involves designing a comprehensive database system for an online bookstore that sells physical books, e-books,and audiobooks.The system allows customers to browse the catalog, make purchases, and leave reviews. Authors and publishers are also integrated into the system.
+Welcome to the project for the Online Bookstore System! In order to sell physical books, e-books, and audiobooks online, this project entails creating a robust database system.Customers can explore the catalogue, make purchases, and give reviews using the system. The technology also integrates publishers and authors.
 
 # Group Members and Responsibilities
 
@@ -106,12 +106,43 @@ sudo apt install docker.io
 ### Download Node.js:
     Navigate to the [Download Page of Nodejs](https://nodejs.org/en/download/),
     Download the package that corresponds to your system.
+    
+    ```bash
+    node -v
+    ```
 
 ### Clone the Repository:
 ```bash
-git clone <repository-url>
-cd <repository-directory>
+git clone (https://github.com/dharmeshva/Final_Project.git)
+cd Final_Project
 ```
+### Install the required Dependencies:
+```bash
+npm install axios@^1.6.2 cors@^2.8.5 express@^4.18.1 pg@^8.7.3 reflect-metadata@^0.1.13 typeorm@^0.3.6
+```
+### Install the required Dev Dependencies:
+```bash
+npm install --save-dev @types/cors@^2.8.12 @types/express@^4.17.13 @types/node@^18.0.0
+npm install --save-dev @typescript-eslint/eslint-plugin@^5.29.0 @typescript-eslint/parser@^5.29.0 eslint@^8.18.0
+npm install --save-dev eslint-plugin-import@^2.26.0 eslint-plugin-jest@^26.5.3 jest@^28.1.1
+npm install --save-dev nodemon@^3.0.1 ts-jest@^28.0.5 ts-node@^10.2.1 typescript@^4.7.4
+```
+
+### Run the Project:
+```bash
+npm start
+```
+
+### Run Unit Tests:
+```bash
+npm run test
+```
+### Run Integration Tests :
+Run integration tests to verify the interaction between different tables and data consistency
+```bash
+npm run test:integration
+```
+
 
 
 
