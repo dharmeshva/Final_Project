@@ -86,6 +86,37 @@ In addition to supporting effective queries and transactions, this design guaran
 | review_date   | DATE            |
 
 
+## Prerequisites
+
+Before starting the project, ensure you have the following installed:
+
+1. **Docker** (to run PostgreSQL)
+2. **Node.js** (at least version 12)
+3. **TypeScript** (globally installed)
+4. **pg (node-postgres)** library for PostgreSQL interaction
+
+You can install these prerequisites using the following commands:
+
+```bash
+# Install Docker
+# For Ubuntu
+sudo apt update
+sudo apt install docker.io
+```
+### Download Node.js:
+    Navigate to the [Download Page of Nodejs](https://nodejs.org/en/download/),
+    Download the package that corresponds to your system.
+
+### Clone the Repository:
+```bash
+git clone <repository-url>
+cd <repository-directory>
+```
+
+
+
+
+
 
 
 
